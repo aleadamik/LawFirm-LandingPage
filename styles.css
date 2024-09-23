@@ -1,0 +1,195 @@
+/* Estilos generales */
+body {
+    font-family: 'Merriweather', serif;
+}
+
+h2 {
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+    font-family: 'Playfair Display', serif;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #ccc;
+    margin: 20px auto 0;
+}
+
+/* Navbar */
+header {
+    margin-bottom: 0;
+}
+
+header .navbar-brand img {
+    height: 100px;
+}
+
+header .nav-link {
+    color: #fff !important;
+    font-size: 1.2rem;
+    font-family: 'Playfair Display', serif;
+}
+
+header .navbar-nav {
+    flex-direction: row;
+}
+
+header .nav-item {
+    margin-left: 20px;
+}
+
+.bg-dark-grey {
+    background-color: #181419;
+    color: #fff;
+}
+
+/* 1.- Sección Inicio */
+#inicio {
+    padding: 0;
+    margin: 0;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 155vh;
+}
+
+/* 2.- Sección Quienes somos */
+#quienes-somos p {
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+    line-height: 2;
+}
+
+#quienes-somos .card {
+    border-radius: 10px;
+    transition: transform 0.2s; 
+}
+
+#quienes-somos .card:hover {
+    transform: scale(1.05);
+}
+
+#quienes-somos .card-img-top {
+    width: 100%;
+    height: auto;
+    max-height: 150px; 
+    object-fit: cover; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#quienes-somos .card-title {
+    font-size: 1.1rem; 
+    font-weight: bold;
+}
+
+/* 3.- Sección Staff */
+.staff-card {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 30px; 
+    padding: 10px;
+    transition: transform 0.2s;
+}
+
+.staff-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.staff-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); 
+    color: #fff;
+    text-align: center; 
+}
+
+.staff-card:hover {
+    transform: scale(1.05);
+}
+
+/* 4.- Sección Contacto */
+.btn-contacto {
+    background-color: #6c757d; /* Gris oscuro */
+    color: white;
+    border: none;
+}
+
+.btn-contacto:hover {
+    background-color: #5a6268; /* Gris más oscuro al pasar el cursor */
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+footer .footer-logo {
+    height: 150px;
+}
+
+footer p {
+    margin: 10px 0 0;
+}
+
+footer .container {
+    text-align: center;
+}
+
+footer .row {
+    margin: 0;
+}
+
+footer .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+footer .col-md-6.text-md-right {
+    text-align: center;
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    footer .col-md-6.text-md-right {
+        text-align: right;
+    }
+}
+
+footer .text-center {
+    margin-top: 20px;
+}
+
+/* Botón de Whatsapp */
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+}
+
+.whatsapp-button img {
+    width: 60px;
+    height: 60px;
+}
