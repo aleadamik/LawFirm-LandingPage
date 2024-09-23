@@ -1,4 +1,4 @@
-# LawFirm Landing Page - Alejandro Adamik
+# LawFirm Landing Page
 
 Este proyecto es una maqueta de una página de inicio para un estudio jurídico previsional en el que formo parte. Está diseñada para proporcionar información clara y accesible sobre los servicios legales ofrecidos en el ámbito previsional.
 
